@@ -1,3 +1,5 @@
+![Wacom Driver Slim Installation Guide](icon.png)
+
 # Wacom Driver Slim Installation Guide
 
 ## Introduction

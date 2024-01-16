@@ -1,33 +1,25 @@
 # Wacom Driver Slim Installation Guide
 
 ## Introduction
-
 This README provides a guide on how to install the Wacom tablet driver without the additional Wacom Center software. This slim installation is beneficial for users who prefer a lightweight driver setup or have limited system resources.
 
 ## Prerequisites
-
 - Windows Operating System.
 - Wacom tablet compatible with the driver version.
 - Administrative privileges on your computer.
 
 ## Getting the Driver
-
-1. Visit the Wacom Drivers page.
+1. Visit the [Wacom Drivers page](https://www.wacom.com/en/support/product-support/drivers).
 2. Select your tablet model.
 3. Download the appropriate driver for your operating system.
 
 ## Installation
-
 1. Save the downloaded driver (e.g., `WacomTablet_6.4.4-3.exe`) to a known location on your system.
 2. Create a `.bat` file named `InstallWacomDriver.bat` with the following content:
-
-    ```bat
-    @echo off
-    :: Install Wacom driver without the Wacom Center
-    WacomTablet_6.4.4-3.exe /opt nowdc
-    ```
-
-3. Save `InstallWacomDriver.bat` in the same directory as the downloaded driver.
+   ```bat
+   @echo off
+   :: Install Wacom driver without the Wacom Center
+   WacomTablet_6.4.4-3.exe /opt nowdc
 
 ## Running the Installation
 

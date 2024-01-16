@@ -23,9 +23,9 @@ This README provides a guide on how to install the Wacom tablet driver without t
 
 ## Running the Installation
 
-1. Right-click `InstallWacomDriver.bat` and select 'Run as Administrator'.
-2. If a User Account 
-3. The installation will proceed without installing Wacom Center.
+1. Right-click InstallWacomDriver.bat and select 'Run as Administrator'.
+2. If a User Account Control (UAC) prompt appears, click 'Yes' to allow the script to run with administrative privileges.
+3. The installation will proceed without installing Wacom Cen
 
 ## Post-Installation
 After installation, you may need to restart your computer. Once rebooted, you can connect your Wacom tablet and start using it right away.

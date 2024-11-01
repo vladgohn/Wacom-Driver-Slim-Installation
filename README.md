@@ -34,6 +34,8 @@ This README provides a guide on how to install the Wacom tablet driver without t
 4. If a User Account Control (UAC) prompt appears, click 'Yes' to allow the script to run with administrative privileges.
 5. The installation will proceed without installing Wacom Center.
 
+---
+
 ### macOS
 
 1. Save the downloaded `.dmg` driver file (e.g., `WacomTablet_6.4.7-2.dmg`) to your desktop.
@@ -56,10 +58,12 @@ This README provides a guide on how to install the Wacom tablet driver without t
     hdiutil detach /Volumes/WacomTablet
     ```
 
+> **Note:** If you encounter an error stating that the package path is invalid, double-check that the `.pkg` file is located at `/Volumes/WacomTablet/Install Wacom Tablet.pkg`. The volume name may vary slightly in future driver versions, but the installation process remains the same.
+
 ---
 
 ## Post-Installation
-After installation, you may need to restart your computer. Once rebooted, you can connect your Wacom tablet and start using it right away.
+After installation, you may need to restart your computer. Once rebooted, connect your Wacom tablet. You should now be able to use it immediately.
 
 ## Support
-For any issues during installation or use, refer to the Wacom Support page for further assistance.
+For any issues during installation or use, refer to the [Wacom Support page](https://www.wacom.com/en/support) for further assistance.

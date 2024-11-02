@@ -21,7 +21,7 @@ This README provides a guide on how to install the Wacom tablet driver without t
 
 ### Windows
 
-1. Save the downloaded driver (e.g., `WacomTablet_6.4.4-3.exe`) to a known location on your system.
+1. Save the downloaded driver (e.g., `WacomTablet_X.X.X.exe`) to a known location on your system.
 2. Create a `.bat` file named `InstallWacomDriver.bat` with the following content:
 
     ```bat
@@ -38,12 +38,12 @@ This README provides a guide on how to install the Wacom tablet driver without t
 
 ### macOS
 
-1. Save the downloaded `.dmg` driver file (e.g., `WacomTablet_6.4.7-2.dmg`) to your desktop.
+1. Save the downloaded `.dmg` driver file (e.g., `WacomTablet_X.X.X.dmg`) to your desktop.
 2. Open the Terminal and execute the following commands:
 
     ```bash
     # Mount the .dmg file
-    hdiutil attach ~/Desktop/WacomTablet_6.4.7-2.dmg
+    hdiutil attach ~/Desktop/WacomTablet_X.X.X.dmg
     ```
 
 3. Once the image is mounted, install the driver package using:

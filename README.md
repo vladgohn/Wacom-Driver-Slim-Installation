@@ -27,7 +27,7 @@ This README provides a guide on how to install the Wacom tablet driver without t
     ```bat
     @echo off
     :: Install Wacom driver without the Wacom Center
-    WacomTablet_6.4.4-3.exe /opt nowdc
+    WacomTablet_X.X.X.exe /opt nowdc
     ```
 
 3. Right-click `InstallWacomDriver.bat` and select 'Run as Administrator'.
